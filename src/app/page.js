@@ -2,6 +2,8 @@ import Home from './components/Home'
 import Aboutme from './components/About';
 import Project from './components/project';
 import Tech from './components/Tech';
+import Contact from './components/contact';
+import Footer from './components/Footer';
 
 function Page() {
   return (
@@ -10,6 +12,8 @@ function Page() {
     <Aboutme/>
     <Project/>
     <Tech/>
+    <Contact/>
+    <Footer/>
     </>
   );
 }
