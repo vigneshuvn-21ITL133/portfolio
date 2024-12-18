@@ -7,7 +7,7 @@ import project3 from '../Image/blind.webp'
 export default function Project() {
      return(
     <div>
-    <h2 className="text-2xl text-center">Projects</h2>
+    <h2 className="text-3xl text-center underline underline-offset-1">Projects</h2>
     <div className="grid grid-cols-3 m-10 gap-10 p-8 ml-32 shadow-sm rounded-sm">
     <div className="col-span-1 w-auto h-auto justify-center items-center">
      <Image src={project1} alt="project1" width={250} height={250} className='rounded-xl'/>
