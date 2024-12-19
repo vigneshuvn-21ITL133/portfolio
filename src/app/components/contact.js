@@ -33,6 +33,7 @@ export default function Contact() {
                             type="text"
                             name="name"
                             id="name"
+                            placeholder="Name"
                             className="w-48 p-2 border border-gray-300 rounded-md font-mono"
                         />
                         <label htmlFor="email">Email</label>
@@ -40,12 +41,14 @@ export default function Contact() {
                             type="email"
                             name="email"
                             id="email"
+                            placeholder="Email"
                             className="w-48 p-2 border border-gray-300 rounded-md font-mono"
                         />
                         <label htmlFor="message">Message</label>
                         <textarea
                             name="message"
                             id="message"
+                            placeholder="Message"
                             className="w-48 p-2 h-24 border border-gray-300 rounded-md font-mono"
                         ></textarea>
                         <button

@@ -6,7 +6,7 @@ export default function Aboutme() {
          <div className='grid grid-cols-2 m-10 p-16 gap-5 ml-10 shadow-sm rounded-sm'> 
          <div className='col-span-1 w-auto h-96  ml-16'>
          <h3 className="font-mono m-1">Hello,welcome</h3>
-            <h1 className="text-6xl">I m Vigneshu</h1>
+            <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">I m Vigneshu</h1>
             <p className="text-2xl font-mono">
             Creative and detail-oriented web developer specializing in building responsive and user-friendly websites. Passionate about transforming ideas into functional digital solutions using modern technologies.
             </p>
@@ -15,8 +15,8 @@ export default function Aboutme() {
             </button>
             
          </div>
-         <div className='col-span-1 w-auto h-96 ml-64 animate-pulse'>
-          <Image src={profile} alt="profile" width={250} height={250} className='rounded-3xl'/>
+         <div className='col-span-1 w-auto h-96 ml-64'>
+          <Image src={profile} alt="profile" width={250} height={250} className='rounded-full'/>
           </div>
          </div>
     )
