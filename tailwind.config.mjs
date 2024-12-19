@@ -28,12 +28,12 @@ const config = {
             borderColor: "transparent"
           },
           "100%": {
-            borderColor: "black"
+            borderColor: "white"
           }  
         }
       },
       animation: {
-        typing: "typing 3s steps(15) infinite alternate, blink .5s infinite"
+        typing: "typing 3s steps(20) infinite alternate, blink .5s infinite"
       }
     },
   },

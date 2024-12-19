@@ -3,7 +3,7 @@ import profile from '../../app/Image/vigneshu.jpg'
 export default function Aboutme() {
     return(
   
-         <div className='grid grid-cols-2 m-10 p-16 gap-5 ml-10 shadow-sm rounded-sm'> 
+         <div className='grid grid-cols-2 m-10 p-16 gap-5 ml-10 shadow-lg rounded-sm'> 
          <div className='col-span-1 w-auto h-96  ml-16'>
          <h3 className="font-mono m-1">Hello,welcome</h3>
             <h1 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold">I m Vigneshu</h1>

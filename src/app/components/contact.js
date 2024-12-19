@@ -25,7 +25,7 @@ export default function Contact() {
     return (
         <div>
             <h1 className="text-3xl text-center underline underline-offset-1">Contact</h1>
-            <div className="m-5 w-auto h-auto p-8 ml-12 shadow-md rounded-sm">
+            <div className="m-5 w-auto h-auto p-8 ml-12 shadow-lg rounded-sm">
                 <form onSubmit={handleSubmit}>
                     <div className="grid grid-flow-row justify-center items-center">
                         <label htmlFor="name">Name</label>
