@@ -1,20 +1,10 @@
-import Home from './components/Home'
-import Aboutme from './components/About';
-import Project from './components/project';
-import Tech from './components/Tech';
-import Contact from './components/contact';
-import Footer from './components/Footer';
+import Index from './Index'
 
-function Page() {
+
+
+function page() {
   return (
-    <>
-    <Home/>
-    <Aboutme/>
-    <Project/>
-    <Tech/>
-    <Contact/>
-    <Footer/>
-    </>
+    <Index/>
   );
 }
-export default Page;
+export default page;

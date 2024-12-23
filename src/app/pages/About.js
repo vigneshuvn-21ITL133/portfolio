@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import profile from '../../app/Image/vigneshu.jpg'
+import profile from '../Image/vigneshu.jpg'
 export default function Aboutme() {
     return(
   
@@ -11,7 +11,7 @@ export default function Aboutme() {
             Creative and detail-oriented web developer specializing in building responsive and user-friendly websites. Passionate about transforming ideas into functional digital solutions using modern technologies.
             </p>
             <button className="bg-orange-400 text-white px-4 py-2 rounded-md mt-4 hover:bg-orange-500">
-              resume cv
+            <a href='https://drive.google.com/file/d/1M0RqIQOjLriHOSwHO-5eKcF0l7kqWCbV/view?usp=sharing'>Resume</a>
             </button>
             
          </div>
