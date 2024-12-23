@@ -19,7 +19,7 @@ export default function Project() {
     <div className="col-span-1 w-auto h-auto justify-center items-center">
      <Image src={project2} alt="project2" width={250} height={250} className='rounded-xl'/>
     <p className='font-mono'>E-commerce for website for srividhyaa Enterprises</p>
-    <a href='' className='text-orange-600'>click here</a>
+    <a href='https://github.com/vigneshuvn-21ITL133/E_commerce.git' className='text-orange-600'>click here</a>
     </div>
 
     <div className="col-span-1 w-auto h-auto justify-center items-center">
